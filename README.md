@@ -195,8 +195,8 @@ X-Auth: <SESSION_TOKEN>
 __Тело запроса:__
 ```JS
 {
-    "lastName": <string>, // имя
-    "firstName": <string>, // фамилия
+    "lastName": <string>, // фамилия
+    "firstName": <string>, // имя
     "patronymic": <string>, // отчество
     "birthdate": <string>, // дата рождения, ГГГГ-ММ-ДД
     "driverDoc": <string> // водительское удостоверение, десять символов, без пробелов
